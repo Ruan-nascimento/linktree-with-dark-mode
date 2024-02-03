@@ -1,0 +1,161 @@
+/* perfil style */
+
+#overall{
+    height: 100vh;
+    width: 100vw;
+    background-image: var(--back-img);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 54px 0;
+}
+
+.main-box{
+    height: 540px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+
+    border: solid 3px var(--border-main);
+    background-color: var(--background);
+    
+    
+
+}
+
+.main-box .perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-box .perfil #perfil-img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px 0;
+
+    background-image: url(../assets/img/perfil-img.jpg);
+    background-size: cover;
+
+    border: 2px solid var(--border-color);
+}
+
+.main-box .perfil #id-insta{
+    font-size: 19px;
+     margin: 10px 0;
+     font-weight: 200;
+     color: var(--color-text);
+}
+
+
+/* mode button */
+.button-mode{
+    margin: 0 auto;
+    width: 60px;
+    position: relative;
+}
+
+.button-mode .mode{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    border: solid 1px var(--border-color);
+    background-color: var(--icon-color);
+    background-image: var(--mode-icon);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    transform: translateY(32%);
+    
+}
+
+.button-mode .tracker{
+    display: block;
+    border: 1px solid var(--border-color);
+    height: 25px;
+    width: 60px;
+    border-radius: 99999px;
+}
+
+
+/* navegation bar */
+nav.buttons{
+    margin: 20px 0;
+}
+
+ul.list-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+ul.list-buttons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--color-text);
+    text-transform: capitalize;
+    font-weight: 600;
+
+    height: 40px;
+    width: 100%;
+
+    background-color: var(--buttons-background);
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+
+    transition: 0.2s ease-in-out background-color, 0.4s ease-in-out border-color;
+}
+
+ul.list-buttons a:hover{
+    background-color: var(--buttons-background-hover);
+    border-color: var(--border-color-hover);
+}
+
+/* social links */
+.social-links{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    padding: 20px;
+    color: var(--color-text);
+
+    transition: background-color .2s ease-in-out;
+}
+
+.social-links a:hover{
+    background-color: var(--buttons-background-hover);
+}
+
+
+/* footer */
+.credits .link{
+    text-align: center;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 200;
+    margin: 40px 0;
+    color: var(--color-text);
+}
+
+.credits .link b{
+    font-weight: 600;
+}
