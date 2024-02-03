@@ -6,7 +6,7 @@
 
 Projeto Da RocketSeat, Em busca de novos Conhecimentos e Experiências
 
-[🔗 Clique aqui para acessar](https://github.com/Ruan-nascimento/linktree-with-dark-mode/)
+[🔗 Clique aqui para acessar](https://ruan-nascimento.github.io/linktree-with-dark-mode/)
 
 
 ## 🛠 Tecnologias
