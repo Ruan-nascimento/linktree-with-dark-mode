@@ -4,18 +4,18 @@
 
 > Learning JavaScript
 
-Projeto Da RocketSeat, Em busca de novos Conhecimentos e Experiências
+RocketSeat project, in search of new knowledge and experiences...
 
-[🔗 Clique aqui para acessar](https://ruan-nascimento.github.io/linktree-with-dark-mode/)
+[🔗 Click here to acess](https://ruan-nascimento.github.io/linktree-with-dark-mode/)
 
 
-## 🛠 Tecnologias
+## 🛠 Tecnologies
 
 - HTML
 - CSS
 - JavaScript
-- Git e Github
+- Git and Github
 
-## 📧 Contato
+## 📧 Contact 
 
 ruan.nascimento019@gmail.com
