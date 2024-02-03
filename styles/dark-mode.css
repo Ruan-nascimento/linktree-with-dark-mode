@@ -10,8 +10,9 @@
 
     --mode-icon: url(../assets/svg/moon-stars-fill.svg);
     --icon-color: rgb(220, 220, 220);
+    --highlight: rgba(250, 250, 250, .3)
 }
 
 .dark .button-mode .mode{
-    left: 0%;
+    animation: slide-in 0.3s ease forwards;
 }
